@@ -22,7 +22,6 @@ command:
     exit-status: 0
     stdout:
     - '/^{{ .Vars.rhel9cis_sugroup }}:x:\d+:$/'
-    - '!/^{{ .Vars.rhel9cis_sugroup }}:x:\d+:.*/'
     meta:
       server: 1
       workstation: 1
